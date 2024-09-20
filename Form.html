@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="icon" type="image/x-icon" href="panda.jpeg">
+    <link rel="stylesheet" href="Form.css">
+</head>
+</head>
+<body style="background-color: rgb(231, 249, 249);" >
+    <h1 style="text-align: center;color: rgba(125, 22, 229, 0.818); font-size:xx-large; text-shadow: 1cap;">ENTER YOUR DETAILS</h1>
+    <div class="form">
+    <form action="submit">
+        <label for="fname" style="color: blueviolet;font-size: large;">FIRST NAME: </label><br>
+        <input  type="text" placeholder="Enter your firstname" size="20px" required><br><br>
+        <label for="lname"style="color: blueviolet;font-size: large;">LAST NAME: </label><br>
+        <input type="text" placeholder="Enter your lastname" required><br><br>
+        <label for="dob"style="color: blueviolet;font-size: large">DOB   :</label><br>
+        <input type="date"  required><br><br>
+        <label for="mail" style="color: blueviolet;font-size: large;">MAIL  :</label><br>
+        <input type="email" placeholder="Enter your email" required><br><br>
+        <label for="password"style="color: blueviolet;font-size: large;">PASSWORD  :</label><br>
+        <input type="password" placeholder="Enter your password" pattern="[A-Za-z0-9]+"><br><br>
+        <label for="Phone-number" style="color: blueviolet;font-size: large;">NUMBER  :</label><br>
+        <input type="number" placeholder="Enter your number" required><br><br>
+        <p  style="color: blueviolet;font-size: large;">LICENSE FOR VEHICLES :</p>
+        <select name="vehicles" id="vehicles" >
+            <option value="select" >Select Below</option>
+            <option value="two-wheeler">TWO WHEELER</option>
+            <option value="three-wheeler">THREE WHEELER</option>
+            <option value="four-wheeler">FOUR WHEELER</option>
+            <option value="six-wheeler">SIX WHEELER</option>
+            <option value="eight-wheeler">EIGHT WHEELER</option>
+        </select><br><br>
+        <p  style="color: blueviolet;font-size: large;">MARITAL STATUS:</p>
+        <input type="radio" id="Married" value="Married" name="status">
+        <label for="Married" style="font-size: larger;">Married</label>
+        <input type="radio" id="Unmarried" value="Unarried" name="status">
+        <label for="Unmarried" style="font-size: larger;">Unmarried</label>
+        
+       
+        <p  style="color: blueviolet;font-size: large;">FAV FOOD ITEMS:</p>
+        <input type="checkbox" >
+        <label for="Biryani" style="font-size: larger;">Biryani</label>
+        <input type="checkbox" >
+        <label for="Noodles" style="font-size: larger;">Noodles</label>
+        <input type="checkbox" >
+        <label for="Paneer" style="font-size: larger;">Paneer</label><br><br>
+        <input type="checkbox" >
+        <label for="Prawn Roast" style="font-size: larger;">Prawn Roast</label><br><br>
+        <p  style="color: blueviolet;font-size: large;">FEEDBACK:</p>
+       
+        <textarea name="comment" rows="5" cols="50" required></textarea><br><br>
+        <input type="submit" value="submit" >
+        
+        </form>
+    </div>
+   <p style="border: 5px;" class="margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint similique tempore a enim neque expedita quos labore amet ex libero quisquam fugiat, consectetur voluptatem odit error molestias laboriosam iure id.</p>
+</body>
+</html>

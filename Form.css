@@ -1,0 +1,17 @@
+p{
+    color: blue;
+}
+body{
+    background: url(loginnnn.jpeg)  no-repeat;
+    background-size:cover;
+
+}
+.form{
+    align-items: center;
+    
+}
+.margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
